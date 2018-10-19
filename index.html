@@ -14,14 +14,48 @@
       </nav>
     </header>
 <!-- Title -->
-<div class="title">
+  <div class="title">
   <h1>Sea the Sights</h1>
 </div>
 <!-- Blurb -->
-<div class="blurb">
-  <p></p>
-</div>
+  <div class="blurb">
+    <p></p>
+  </div>
+<!-- Search/Filter bar -->
+<input type="text" id=discover onkeyup="myFunction()" placeholder="Search...">
+
+<!-- List of Destinations -->
+<ul id="destination">
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+  <li> <a href="#">name </a></li>
+
+
+  <script>
+  function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("discover");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("destination");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+  </script>
+
 <!-- Image -->
-<img src="" class="backgroundimg">
+  <img src="" class="backgroundimg">
   </body>
 </html>
