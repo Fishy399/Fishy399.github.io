@@ -15,14 +15,12 @@
     </header>
 <!-- Title -->
   <div class="title">
-  <h1>Sea the Sights</h1>
-</div>
 <!-- Blurb -->
   <div class="blurb">
     <p></p>
   </div>
 <!-- Search/Filter bar -->
-<input type="text" id=discover onkeyup="myFunction()" placeholder="Search...">
+<input class="searchbar" type="text" id=discover onkeyup="runFunction()" placeholder="Search...">
 
 <!-- List of Destinations -->
 <ul id="destination">
@@ -38,7 +36,7 @@
 
 
   <script>
-  function myFunction() {
+  function runFunction() {
       var input, filter, ul, li, a, i;
       input = document.getElementById("discover");
       filter = input.value.toUpperCase();
