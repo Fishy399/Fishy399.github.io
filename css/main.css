@@ -31,3 +31,11 @@ body{
   margin-left: 45%;
   margin-top: 10%;
 }
+
+button {
+  font-size: 44px;
+}
+
+.nav {
+  grid-template-columns: repeat(4, 1fr); 
+}
