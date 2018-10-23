@@ -45,5 +45,5 @@ button {
 .locations {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  grid-gap: 40px;
+  grid-gap: 10px;
 }
