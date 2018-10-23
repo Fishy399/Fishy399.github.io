@@ -41,6 +41,36 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
 }
+  /* NAVIGATION: */
+/* Add a black background color to the top navigation */
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  display: block;
+  /* color: #577399; */
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: grey;
+  color: #E7DFDD;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #e8491d;
+  color: white;
+}
 
 .locations {
   margin-left: 19%;
