@@ -21,26 +21,6 @@ body{
 button {
   font-size: 44px;
 }
-
-.backgroundimg {
-
-}
-
-.searchbar {
-  margin-left: 45%;
-  margin-top: 10%;
-}
-
-.list {
-  margin-left: 45%;
-  margin-top: 5%;
-}
-
-.nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
-}
   /* NAVIGATION: */
 /* Add a black background color to the top navigation */
 nav {
@@ -78,4 +58,30 @@ nav a.active {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 10px;
+}
+
+.backgroundimg {
+
+}
+
+.searchbar {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.list {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+.enquirebutton {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
 }
