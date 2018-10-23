@@ -43,6 +43,7 @@ button {
 }
 
 .locations {
+  margin-left: 45%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 10px;
