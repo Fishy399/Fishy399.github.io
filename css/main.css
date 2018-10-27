@@ -22,9 +22,9 @@ button {
   font-size: 44px;
 }
   /* NAVIGATION: */
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 nav {
-  background-color: black;
+  background-color: #1CC829;
   overflow: hidden;
 }
 
@@ -32,12 +32,11 @@ nav {
 nav a {
   float: left;
   display: block;
-  /* color: #577399; */
-  color: blue;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 112px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 /* Change the color of links on hover */
@@ -61,7 +60,7 @@ nav a.active {
 }
 
 .backgroundimg {
-
+background-image: url();
 }
 
 .searchbar {
