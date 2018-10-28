@@ -281,6 +281,8 @@ a {
     border-radius: 3px 0 0 3px;
 }
 /*-------------------------------------*/
-.background {
-  background-color: black;
+#background {
+  background-color: white;
+  background-image: url("../australia_fitzroy-island.jpg");
+  background-size: cover;
 }
