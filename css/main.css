@@ -59,8 +59,15 @@ nav a.active {
   grid-gap: 10px;
 }
 
+/* The image is centered and non repeating.*/
 .backgroundimg {
-background-image: url();
+background-image: url("image.adapt_.1200.high.jpg.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: auto;
+max-width: 100%;
 }
 
 .searchbar {
