@@ -4,7 +4,8 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Home page</title>
 </head>
-  <body>
+  <body id="background">
+
     <header>
       <!-- Navigation -->
       <nav>
@@ -17,14 +18,16 @@
 <!-- Title -->
   <div class="title">
     <h1>Sea the Sights</h1>
+  </div>
 <!-- Blurb -->
   <div class="blurb">
     <p>Welcome to Sea the Sights!</p>
-    <p>When you are ready to search, enter your destintation in to the search bar!</p>
+    <p>When you are ready to search, enter your destintation in to the search bar and select a location!</p>
   </div>
 <!-- Search/Filter bar -->
-<input class="searchbar" type="text" id=discover onkeyup="runFunction()" placeholder="Search...">
-
+<form class="form-wrapper cf">
+  <input class="searchbar" type="text" id=discover onkeyup="runFunction()" placeholder="Search...">
+</form>
 <!-- List of Destinations -->
 <ul class="list" id="destination">
   <li> <a href="berarra.html">Berarra </a> </li>
@@ -36,7 +39,7 @@
   <li> <a href="#">Philip Island </a> </li>
   <li> <a href="#">St Kilda </a> </li>
   <li> <a href="#">Wollongong </a> </li>
-
+<!-- function for search bar-->
   <script>
   function runFunction() {
       var input, filter, ul, li, a, i;
