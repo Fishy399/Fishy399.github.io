@@ -286,3 +286,9 @@ a {
   background-image: url("../australia_fitzroy-island.jpg");
   background-size: cover;
 }
+
+.border {
+  margin-left:700px;
+  padding: 4px;
+  width: 50%;
+}
