@@ -98,22 +98,23 @@ nav a.active {
 }
 
 .enquirebutton {
-  width: 100%;
+  width: 100px;
+  height: 50px;
   border: none;
   background: #4CAF50;
   color: #FFF;
-  margin: 0 0 5px;
+  margin-left: 45%;
   padding: 10px;
   font-size: 15px;
-
 }
 
 .information p {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   font-style: normal;
   color: black;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /*-------------------------------------*/
@@ -303,7 +304,9 @@ a {
 /*-------------------------------------*/
 .imgcontainer {
     position: relative;
-    width: 50%;
+    margin-left:200px;
+    padding: 10px;
+    width: 30%;
 }
 
 .image {
@@ -322,7 +325,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
 }
 
 .imgcontainer:hover .image {
@@ -338,4 +341,13 @@ a {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+/*-------------------------------------*/
+
+.pricerange {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-top: 4%;
 }
