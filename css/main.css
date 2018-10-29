@@ -261,8 +261,8 @@ fieldset {
 /*-------------------------------------*/
 
 /*SEARCHBAR*/
-a {
-    color: #ccc;
+.list a {
+    color: black;
 }
 
 .cf:before, .cf:after{

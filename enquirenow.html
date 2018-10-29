@@ -14,9 +14,17 @@
     <a class="emphasis" href="enquirenow.html">Enquire Now!</a>
   </nav>
 </header>
+
+<script type="text/javascript">
+function thankMessage() {
+  // Thank you message
+  alert('Thank you for making an enquiry! We will get back to you as soon as possible!');
+}
+</script>
+
 <!--Enquire Now form -->
 <div class="container">
-  <form id="contact" action="" method="post">
+  <form id="contact" action="" method="get" onsubmit="thankMessage()">
     <div class="formtitle">
       <h2>Enquire Now!</h2>
     </div>
@@ -30,7 +38,7 @@
       <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
-      <button href="thankyou.html" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button href="" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </body>
 </html>
