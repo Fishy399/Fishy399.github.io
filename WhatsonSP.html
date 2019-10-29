@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<!-- Headers -->
+<head>
+  <link rel="stylesheet" type="text/css" href="SP.css">
+  <title>What's on at JPC</title>
+</head>
+    <header>
+  <!-- Navigation Bar-->
+      <nav>
+        <a href="https://www.jpc.act.edu.au"><img src="images/logo.png" alt="Logo" style="width:50px; height:1%;"></a>
+        <a class="emphasis"href="index.html">Home</a>
+        <a class="emphasis"href="ProgramsSP.html">Programs</a>
+        <a class="emphasis"href="WhatsonSP.html">What's on at JPC</a>
+        <a class="emphasis"href="SignupSP.html">Meet The Team</a>
+      </nav>
+    </header>
+
+<!-- Body -->
+  <body>
+    <!-- Title -->
+  <div class="title">
+    <h1>What's on at JPC</h1>
+  </div>
+
+  <div class="blurb">
+    <p>Below are the Performing arts related announcements. Click on the titles to uncover the information and click again to hide the information away.</p>
+  </div>
+<br>
+
+  <button class="collapsible">Tuesday Tunes</button>
+  <div class="content">
+    <p>Come along to Tuseday Tunes at lunch time on Tuesdays for some live music! Feel free to get up and perform or sing along!</p>
+  </div>
+  <button class="collapsible">Floriade Performers</button>
+  <div class="content">
+    <p>The performing arts will be sending a few groups of students to perform at floriade on ...</p>
+  </div>
+  <button class="collapsible">Senior Music Class Concert</button>
+  <div class="content">
+    <p> The Senior Music class will be having their final assessment task in the theatre on ... Feel free to come along and watch the performance! </p>
+  </div>
+  <button class="collapsible">Senior PA Sydney Trip 2019</button>
+  <div class="content">
+    <p> The Senior Performing Arts students are going on an excursion to Sydney! They will have the oppotunity to attend specialist workshops and expeiance a musical of Charlie and the Chocolate factory.</p>
+  </div>
+  <button class="collapsible">Dancefest 2019</button>
+  <div class="content">
+    <p>A big congratualtions to all the dancers who attended and performed in Dancefest 2019.</p>
+  </div>
+
+  <button class="collapsible">Arts students see Chicago The Musical in Sydney</button>
+  <div class="content">
+    <p>Wednesday this week, 50 Arts students from Years 7 – 12, travelled to Sydney to see Chicago The Musical at Capitol Theatre. The amazing performance stars Natalie Bassingthwaighte, Alinta Chidzey (from Canberra), Casey Donovan and Tom Burlinson.</p>
+  </div>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<!-- Footers -->
+    <footer>
+      <div> <!-- Copyright -->
+        <h2 class="copyright">Copyright 2015 John Paul College 1021 Gungahlin Drive Nicholls ACT Ph: (02) 6163 4800
+        </h2>
+      </div>
+    </footer>
+  </body>
+</html>
